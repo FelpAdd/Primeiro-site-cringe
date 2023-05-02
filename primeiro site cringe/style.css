@@ -1,0 +1,71 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:black;
+    background-color:darksalmon;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav {
+    height: 60px;
+    padding: 20px;
+    margin: 0px;
+  }
+  
+  h1 {
+    margin-top: 200px;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  p {
+    display: block;
+    margin-bottom: 0em;
+	  margin-left: 69px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: -500;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .copy {
+    position: inline-block;
+    margin: 0 auto;
+  }
+  
+.logo{
+    height:80px;
+    vertical-align:bottom;
+} 
+.painel img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  list-style-type: disc;
+  margin-left: 2rem;
+  padding-left: 1.5rem; 
+}
+
+li {
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+ul li a {
+  font-size: 20px;
+}

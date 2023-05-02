@@ -1,0 +1,78 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:black;
+    background-color:darksalmon;
+    padding: 0;
+    margin: 0;
+}
+.torta {
+    width: 65%;
+    height: auto;
+    max-height: 300px; 
+    margin-top: 15%;
+}
+.lasanha {
+    width: 50%;
+    height: auto;
+    max-height: 300px; 
+}
+.brigadeiro {
+    width: 40%;
+    height: auto;
+    max-height: 300px; 
+    margin-top: 7%;
+    
+}
+
+.painel {
+    width: 27%;
+    margin-right: 3%;
+    margin-left: 3%;
+    float: left;
+    background-color: rgb(248, 243, 243);
+    padding: 19px;
+    box-sizing: border-box;
+}
+
+.painel img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    list-style-type: disc;
+    margin-left: 2rem;
+    padding-left: 1.5rem; 
+  }
+  
+  li {
+    text-align: left;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  ul li a {
+    font-size: 20px;
+  }
+  p {
+    border-top: 1px solid black;
+    padding-top: 20px;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  nav {
+    height: 60px;
+    padding: 20px;
+    margin: 0px;
+  }
+  
